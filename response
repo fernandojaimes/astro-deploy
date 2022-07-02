@@ -1,0 +1,4 @@
+START RequestId: 2cedd7b6-56c8-45c1-87b9-75b17cfa0a76 Version: $LATEST
+{'Parameter': {'Name': 'sample', 'Type': 'String', 'Value': 'sample_test', 'Version': 1, 'LastModifiedDate': datetime.datetime(2022, 6, 19, 1, 13, 6, 328000, tzinfo=tzlocal()), 'ARN': 'arn:aws:ssm:us-east-1:344969370772:parameter/sample', 'DataType': 'text'}, 'ResponseMetadata': {'RequestId': '705bd7bf-033c-4763-9038-2e69f05b1294', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Sun, 19 Jun 2022 02:11:54 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '195', 'connection': 'keep-alive', 'x-amzn-requestid': '705bd7bf-033c-4763-9038-2e69f05b1294'}, 'RetryAttempts': 0}}
+END RequestId: 2cedd7b6-56c8-45c1-87b9-75b17cfa0a76
+REPORT RequestId: 2cedd7b6-56c8-45c1-87b9-75b17cfa0a76	Duration: 200.49 ms	Billed Duration: 201 ms	Memory Size: 128 MB	Max Memory Used: 66 MB	

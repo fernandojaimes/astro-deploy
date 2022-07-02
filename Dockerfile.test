@@ -1,0 +1,21 @@
+#https://github.com/ljay79/docker-awscli-boto
+# syntax = docker/dockerfile:1.2
+
+FROM python:3.8-slim-buster
+
+
+RUN --mount=type=secret,id=.env
+
+WORKDIR /home/workspace/
+"""
+RUN apt update && apt upgrade -y \
+    && apt install curl -y \
+    && apt install zip -y \
+    && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+    && unzip awscliv2.zip \
+    && ./aws/install 
+"""
+#COPY entrypoint.sh /entrypoint.sh
+#RUN chmod +x /entrypoint.sh
+#CMD ["npm", "start"]
+
